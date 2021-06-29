@@ -1,8 +1,16 @@
-1.создайте файл INFO.md с помощью команды echo "text" > INFO.md 2. Создайте файл file-feature-1.txt с произвольным содержимым (например, текст из предыдущей главы) и зафиксируйте его в Git. : echo "text" > file-feature-1.txt . зафиксировать его в Git: git add .   git commit -am "text"
-3. создайте файл file-feature-2.txt с другим содержимым : echo "text" > file , измените файл file-feature-1.txt : vi file . зафиксировать  в Git: git add .   git commit -am "text"
-4. создайте file-feature-3.txt (произвольный текст) : echo "text" > file  и удалите file-feature-1.txt: rm file .
-5. Редактирование файла INFO.md : vi file 
-6. переименуйте файл file-feature-3.txt в file-main-feature.txt, используя git mv.
-7. Редактирование файла INFO.md : vi file
-8. Внеcти изменения в Git: git push
+1.git branch 17-3-homeworkA
+2.git checkout 17-3-homework
+3.echo "text" > HOMEWORK
+4.git add HOMEWORK
+5.git checkout -
+6.vi INFOD.md
+7.git add INFO.md
+8.git commit INFO.md
+9.git checkout 17-3-homework
+10.echo "text" > test
+11.git add test
+12.git commit -am ""
+13.git push oridin 17-3-homework
+14.git checkout main
+15.git push  
 
